@@ -1,0 +1,2 @@
+sum([],0).
+sum([H|T],S):-S is S+H,sum(T,S).

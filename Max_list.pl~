@@ -1,0 +1,1 @@
+max([H|T],M):-H>M1=:=M is H, max(T,M1).

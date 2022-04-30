@@ -1,0 +1,3 @@
+insertn(I,1,list,[I|list]).
+insertn(I,Pos,[H|list],[H|R]):-Pos1 is Pos-1, insertn(I,Pos1,list,R).
+

@@ -1,0 +1,4 @@
+number([],0).
+number([_],1).
+number([_|T],N):-number(T,N1), N is N1+1.
+oddeven(L):- mod(number(L,N),2)=:=write("Even");write("Odd").
